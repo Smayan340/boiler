@@ -18,7 +18,7 @@ class Stone {
       translate(pos.x, pos.y);
       rotate(angle);
       rectMode(CENTER);
-      fill("grey");
+      fill("blue");
       rect(0, 0, this.width, this.height);
       pop();
     }
